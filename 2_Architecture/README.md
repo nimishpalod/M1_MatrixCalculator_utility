@@ -1,6 +1,6 @@
 # Design
 
-## FlowChart
+## Structural Diagram
 
 ![Flow Chart](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/MyBlockDiagram1.jpg)
 
