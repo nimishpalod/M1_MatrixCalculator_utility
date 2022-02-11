@@ -8,6 +8,14 @@ Mathematical operations are a part of our daily lives. Everyday we will be invol
 | `2_Architecture` | Design and Flow Chart |
 | `3_Implementation` | All code and documentation |
 | `4_TestPlanAndOutput` | Test Plan |
+| `5_Report` | Consolidated report of project |
+| `6_ImagesAndVideos` | Screenshots of the output |
+| `7_Others` | Extra Files |
 ## Badges
+ Code Quality 
  ![Code Quality](https://api.codiga.io/project/31035/status/svg) 
+ ## Refrences
+ * Java TPoint
+ * Educba.com
+ * Wikipedia 
  
