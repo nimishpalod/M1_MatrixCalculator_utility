@@ -9,6 +9,6 @@ Mathematical operations are a part of our daily lives. Everyday we will be invol
 | `3_Implementation` | All code and documentation |
 | `4_TestPlanAndOutput` | Test Plan |
 ## Badges
-| Build |   |    |     |
+| Build |   |    | Code Quality  |
 |-----|-----|----|-----|
 |     |     |    | ![Code Quality](https://api.codiga.io/project/31035/status/svg) |
