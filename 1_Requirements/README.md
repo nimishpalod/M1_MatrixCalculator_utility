@@ -14,7 +14,36 @@ Matrix Calculator is a software designed in C-language which will allow the user
 * For addition and subtraction both the matrices should be of same dimensions
 * For multiplication number of columns of first matrix should be equal to number of rows of second
 * Elements of matrices for each index number
-* For determinant the matrix should be square matrix
-## SWOT Analysis
-### Strengths
+* For determinant the matrix should be square matrix only
+# SWOT Analysis
+## Strengths
+* Finding Sum, Difference, Multiplication of pair of matrix 
+* Finding Transpose and Determinant of a single matrix
+* Supports for all the possible dimensions as per the operation of matrix
+## Weaknesses
+* Limited numbers of operations defined
+* Except determinant all operations are restricted to intger values only
+* Maximum size of matrix is restricted to maximum value of int
+## Opportunities
+* Solves large matrix problems 
+* Saves time and efforts
+* Simple and efficient solution
+* Wide opportunity in Data Science
+## Threats
+* Availability of better options in market
+* Possible memory leaks
+* Only determinant operation supports decimal values
+# 5W's and 1H
+## What
+* Matrix Operations
+* Addition, Subtraction, Multiplication of two matrix
+* Transpose and Determinant of one matrix
+## Who
+* Students 
+* Employees
+* Researchers
+## Where
+* Students can use to verify their result while learning matrix concepts
+* Employees and Researchers can use for quick calculation at work
+## When
 * 
