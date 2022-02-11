@@ -1,0 +1,23 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ nimish ]
+  pull_request:
+    branches: [ nimish ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run
+      run: ./matrix_cal.exe
+    - name: build
+      run: gcc matrix_cal.c -o matrix_cal.exe
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
