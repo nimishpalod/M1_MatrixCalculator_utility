@@ -1,15 +1,23 @@
-#TargetName : Dependencies
-#<TAB>commands
+PROJ_NAME = Matrix_Calculator
+SRC = matrix_cal.c main.c 
 
-PROJ_NAME= MatrixCalculator
-FixPath = $(subst/,\,$1)
-EXEC = out
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
 
-Build : matrix_cal.c matrix_cal.exe
-    gcc matrix_cal.c matrix_cal.exe -o $(call FixPath,$(B$(PROJ_NAME).$(EXEC)))
+build:
+	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-Run : Build
-     ./$(call FixPath,$(PROJ_NAME).$(EXEC))
+run: build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-Clean : 
-    $(RM) $(call FixPath,$(BUILD_DIR)/*.out)
+clean:
+	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
