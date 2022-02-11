@@ -242,5 +242,6 @@ int main()
             determinant();
             break;
     }
+    return 0;
 
 }
