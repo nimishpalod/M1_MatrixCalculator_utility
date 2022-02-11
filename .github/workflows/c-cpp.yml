@@ -16,4 +16,4 @@ jobs:
     - name: Build
       run: gcc matrix_cal.c -o matrix_cal.exe
     - name: Run
-      run: .\matrix_cal.exe
+      run: ./matrix_cal.exe
