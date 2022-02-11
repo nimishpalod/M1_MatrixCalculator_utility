@@ -11,4 +11,4 @@ Mathematical operations are a part of our daily lives. Everyday we will be invol
 ## Badges
 | Build |   |    |     |
 |-----|-----|----|-----|
-|     |     |    | https://api.codiga.io/project/31035/status/svg |
+|     |     |    | ![Code Quality](https://api.codiga.io/project/31035/status/svg) |
