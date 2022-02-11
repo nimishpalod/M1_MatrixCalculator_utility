@@ -101,4 +101,19 @@ M_03 | tested multiplication of two matrix | m,n,s,matrix1,matrix2 | SUCCESS | S
 M_04 | tested transpose of a matrix | m,n,matrix1 | SUCCESS | SUCCESS | Technical
 M_05 | tested determinant of a matrix | n,matrix1 | SUCCESS | SUCCESS | Technical
 
+# Output Images
 
+* Intro Display with options of operations 
+![Screenshot1](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/6_ImagesAndVideos/Project%20ss%201.jpg)
+
+* Addition of 2 Matrix, Same goes for Subtraction of Matrix
+![Screenshot2](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/6_ImagesAndVideos/ss2.jpg)
+
+* Multiplication of 2 matrix
+![Screenshot3](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/6_ImagesAndVideos/Screenshot%20(58).jpg)
+
+* Transpose of a matrix
+![Screenshot4](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/6_ImagesAndVideos/Screenshot%20(59).jpg)
+
+* Determinant of Matrix
+![Screenshot5](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/6_ImagesAndVideos/Screenshot%20(60).jpg)
