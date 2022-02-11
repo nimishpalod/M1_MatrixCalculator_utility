@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Windows C/C++ CI
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
+    - name: build
       run: gcc matrix_cal.c -o matrix_cal.exe
     - name: Run
-      run: ./matrix_cal.exe
+      run: .\matrix_cal.exe
