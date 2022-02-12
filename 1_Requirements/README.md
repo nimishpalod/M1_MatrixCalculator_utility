@@ -59,4 +59,4 @@ Matrix Calculator is a software designed in C-language which will allow the user
 * Saving a lot of time and efforts
 * Getting accurate result
 ## How
-* Can be executed on windows operating system
+* Can be executed on windows and linux operating systems
