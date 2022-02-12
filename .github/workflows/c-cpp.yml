@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc matrix_cal.c -o matrix_cal.exe
+      run: gcc 3_Implementation/matrix_cal.c -o matrix_calculator.exe
     - name: Run
-      run: .\matrix_cal.exe
+      run: .\matrix_calculator.exe
