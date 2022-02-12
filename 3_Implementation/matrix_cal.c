@@ -1,6 +1,22 @@
+/**
+ * @file matrix_cal.c
+ * @author Nimish Palod ()
+ * @brief Matrix Calculator for different matrix operations cd
+ * @version 0.1
+ * @date 2022-02-12
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/**
+ * @brief Finds sum of two matrix
+ * 
+ */
 void addition()
 {
     int n, m, i, j, c, d;
@@ -68,7 +84,7 @@ void subtraction()
             scanf("%d", &b[i][j]);
         }
     }
-    printf("Sum of entered matrices = \n");
+    printf("Difference of entered matrices = \n");
 
     for (c = 0; c < n; c++)
     {
