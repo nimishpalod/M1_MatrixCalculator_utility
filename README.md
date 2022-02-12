@@ -14,7 +14,7 @@ Mathematical operations are a part of our daily lives. Everyday we will be invol
 ## Badges
 | Linux Build | Windows Build | Code Quality|
 |------------|------------|----------|
-|([![C/C++ CI](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml))| [![C/C++ CI](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml) | ![Code Quality](https://api.codiga.io/project/31035/status/svg) 
+|[![C/C++ CI](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml) | [![C/C++ CI](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml) | ![Code Quality](https://api.codiga.io/project/31035/status/svg) 
  ## Refrences
  * Java TPoint
  * Educba.com
