@@ -13,11 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
     - name: build
       run: gcc matrix_cal.c -o matrix.exe
     - name: Run
       run: ./matrix.exe
-    - name: make distcheck
-      run: make distcheck
