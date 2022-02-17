@@ -10,7 +10,6 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 
 /**
@@ -57,6 +56,11 @@ void addition()
     }
 }
 
+/**
+ * @brief Subtration of two matrices
+ * 
+ */
+
 void subtraction()
 {
     int n, m, i, j, c, d;
@@ -96,6 +100,11 @@ void subtraction()
         printf("\n");
     }
 }
+
+/**
+ * @brief Multiplication of two matrices
+ * 
+ */
 
 void multiplication()
 {
@@ -155,6 +164,10 @@ void multiplication()
     }
 }
 
+/**
+ * @brief Transpose of a matrix
+ * 
+ */
 void transpose()
 {
     int m, n, c, d;
@@ -181,6 +194,10 @@ void transpose()
     }
 }
 
+/**
+ * @brief Determinant of a matrix
+ * 
+ */
 void determinant()
 {
     int i, j, k, n;
