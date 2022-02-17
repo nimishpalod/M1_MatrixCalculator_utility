@@ -1,4 +1,4 @@
-name: Windows C/C++ CI
+name: C/C++ CI
 
 on:
   push:
@@ -9,11 +9,11 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: gcc 3_Implementation/matrix_cal.c -o matrix_calculator.exe
+      run: gcc 3_Implementation/matrix_cal.c -o matrix.exe
     - name: Run
-      run: .\matrix_calculator.exe
+      run: ./matrix.exe
