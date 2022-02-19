@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: gcc 3_Implementation/ src -o matrix_calculator.exe
-    - name: Run
-      run: .\matrix_calculator.exe
+    - name: make
+      run: make /home/runner/work/M1_MatrixCalculator_utility/M1_MatrixCalculator_utility/3_Implementation
