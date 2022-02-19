@@ -12,7 +12,7 @@ Mathematical operations are a part of our daily lives. Everyday we will be invol
 | `6_ImagesAndVideos` | Screenshots of the output |
 | `7_Others` | Extra Files |
 ## Badges
-| Build-Quality | Cpp Check | Unit Testing | Valgrind | Code Quality|
+| Build-Quality | Cpp Check | Unit Testing | Valgrind | Code Quality-Codiga|
 |------------|----------|------------|------------|-----------|
 |[![C/C++ CI](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/linuxc-cpp.yml) | [![Cppcheck](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/static-cpp.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/static-cpp.yml) | [![unit testing](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/unitTest.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/unitTest.yml) | [![Valgrind](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/nimishpalod/M1_MatrixCalculator_utility/actions/workflows/Valgrind.yml) | ![Code Quality](https://api.codiga.io/project/31035/status/svg) |
  ## Refrences
