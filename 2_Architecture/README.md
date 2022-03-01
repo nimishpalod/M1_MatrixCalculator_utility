@@ -1,9 +1,20 @@
 # Design
 
-## Structural Diagram
+## Behavioural Diagram
+### High Level
+![Flow Chart 1] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC1.drawio%20(1).png)
 
-![Flow Chart](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/MyBlockDiagram1.jpg)
- 
+### Low Level
+![Flow Chart 2] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC2.drawio.png)
+
+## Structural Diagram
+### High Level UML Use Case diagram
+![Flow Chart 3] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC3.drawio.png)
+
+### Low Level UML Use Case diagram
+![Flow Chart 4] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC4.drawio.png)
+
+## Process Design
 1. At First user needs to give preferance for operation from the list displayed on screen in numbers ranging from 1 to 7.
 2. From that if the operations selected is `Addition or Subtraction` :
     * User needs to enter the number of rows and columns as to define the dimensions of matrix which will be same for both the matrix.
@@ -23,11 +34,8 @@
     * Then needs to enter the elements of matrix at every index. These inputs can be of integer or decimal type.
     * The output will be generated and displayed accordingly.
 
-
-## Use Case Diagram
-
-![Use Case Diagram](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/MyBlockDiagram2.jpg)
-
-
-
+## Best Practice Followed
+* Behavioural and Structural diagrams are mentioned for easy understanding.
+* Used different symbols for describing different blocks and their functionalities.
+* Detailed Explaination of whole process is mentioned.
 

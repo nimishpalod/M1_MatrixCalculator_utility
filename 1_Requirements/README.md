@@ -4,22 +4,32 @@ Matrix Calculator is a software designed in C-language which will allow the user
 ## High Level Requirements 
 | ID | Description |
 | ----- | ------ |
-| HL_01 | Addition of two matrix |
-| HL_02 | Subtraction of two matrix |
-| HL_03 | Multiplication of two matrix |
-| HL_04 |Transpose of matrix |
-| HL_05 | Determinant of matrix |
+| HL_01 | Operation shall be selected by User |
+| HL_02 | It shall add two matrices |
+| HL_03 | It shall Subtract two matrices |
+| HL_04 | It shall Multiply two matrices |
+| HL_05 | It shall find the transpose of given matrix |
+| HL_06 | It shall calculate determinant value of given matrix |
+
 ## Low Level Requirements
-| ID | Description | Link |
-|-----|----------|-------|
-| LL_01 | Selecting the operation | |
-| LL_02 | Number of Rows | HL_01,HL_02,HL03,HL_04 |
-| LL_03 | Number of Columns | HL_01,HL_02,HL_03,HL_04 |
-| LL_04 | Define the order of matrix | HL_05 |
-| LL_05 | Both the matrices should be of same dimensions | HL_01,HL_02 |
-| LL_06 | Number of columns of first matrix should be equal to number of rows of second | HL_03 |
-| LL_07 | Elements of matrices for each index number | HL_01,HL_02,HL03,HL_04,HL_05 |
-| LL_08 | Matrix should be square matrix only | HL_05 |
+| High Level ID | Low Level ID | Description |
+|-------|-------|-------------|
+| `HL_01` | LL_01 | User should select number from 1 to 5 |
+|       | LL_02 | Program should end if any other number is entered |
+| `HL_02` , `HL_03` | LL_03 | Number of rows and columns shall be defined by user |
+|       | LL_04 | Dimensions of both the matrices shall be same |
+|       | LL_05 | Inputs for matrices shall be taken for every index |
+|       | LL_06 | Inputs shall be taken for both the matrices separately |
+| `HL_04` | LL_07 | Number of rows and columns shall be defined by user |
+|       | LL_08 | Number of columns of second matrix should be equal to number of rows of first |
+|       | LL_09 | Inputs for matrices shall be taken for every index |
+|       | LL_10 | Inputs shall be taken for both the matrices separately |
+| `HL_05` | LL_11 | Number of rows and columns shall be defined by user |
+|       | LL_12 | Inputs for matrix shall be taken for every index |
+| `HL_06` | LL_13 | Matrix should be square matrix only |
+|       | LL_14 | User shall define the order of matrix |
+|       | LL_15 | Inputs for matrix shall be taken for every index |
+
 # SWOT Analysis
 ## Strengths
 * Finding Sum, Difference, Multiplication of pair of matrix 
@@ -60,3 +70,8 @@ Matrix Calculator is a software designed in C-language which will allow the user
 * Getting accurate result
 ## How
 * Can be executed on windows and linux operating systems
+
+# Best Practice
+* Usage of functions to make the code more systematic and understandable.
+* Header file is created to use functions wherever required without any confusion or difficulty.
+* To avoid computational errors, unit testing is done.
