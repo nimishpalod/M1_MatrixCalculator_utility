@@ -4,22 +4,32 @@ Matrix Calculator is a software designed in C-language which will allow the user
 ## High Level Requirements 
 | ID | Description |
 | ----- | ------ |
-| HL_01 | Addition of two matrix |
-| HL_02 | Subtraction of two matrix |
-| HL_03 | Multiplication of two matrix |
-| HL_04 |Transpose of matrix |
-| HL_05 | Determinant of matrix |
+| HL_01 | Operation shall be selected by User |
+| HL_02 | It shall add two matrices |
+| HL_03 | It shall Subtract two matrices |
+| HL_04 | It shall Multiply two matrices |
+| HL_05 | It shall find the transpose of given matrix |
+| HL_06 | It shall calculate determinant value of given matrix |
+
 ## Low Level Requirements
-| ID | Description | Link |
-|-----|----------|-------|
-| LL_01 | Selecting the operation | |
-| LL_02 | Number of Rows | HL_01,HL_02,HL03,HL_04 |
-| LL_03 | Number of Columns | HL_01,HL_02,HL_03,HL_04 |
-| LL_04 | Define the order of matrix | HL_05 |
-| LL_05 | Both the matrices should be of same dimensions | HL_01,HL_02 |
-| LL_06 | Number of columns of first matrix should be equal to number of rows of second | HL_03 |
-| LL_07 | Elements of matrices for each index number | HL_01,HL_02,HL03,HL_04,HL_05 |
-| LL_08 | Matrix should be square matrix only | HL_05 |
+| High Level ID | Low Level ID | Description |
+|-------|-------|-------------|
+| `HL_01` | LL_01 | User should select number from 1 to 5 |
+|       | LL_02 | Program should end if any other number is entered |
+| `HL_02` , `HL_03` | LL_03 | Number of rows and columns shall be defined by user |
+|       | LL_04 | Dimensions of both the matrices shall be same |
+|       | LL_05 | Inputs for matrices shall be taken for every index |
+|       | LL_06 | Inputs shall be taken for both the matrices separately |
+| `HL_04` | LL_07 | Number of rows and columns shall be defined by user |
+|       | LL_08 | Number of columns of second matrix should be equal to number of rows of first |
+|       | LL_09 | Inputs for matrices shall be taken for every index |
+|       | LL_10 | Inputs shall be taken for both the matrices separately |
+| `HL_05` | LL_11 | Number of rows and columns shall be defined by user |
+|       | LL_12 | Inputs for matrix shall be taken for every index |
+| `HL_06` | LL_13 | Matrix should be square matrix only |
+|       | LL_14 | User shall define the order of matrix |
+|       | LL_15 | Inputs for matrix shall be taken for every index |
+
 # SWOT Analysis
 ## Strengths
 * Finding Sum, Difference, Multiplication of pair of matrix 
@@ -59,14 +69,32 @@ Matrix Calculator is a software designed in C-language which will allow the user
 * Saving a lot of time and efforts
 * Getting accurate result
 ## How
-* Can be executed on windows operating system
+* Can be executed on windows and linux operating systems
+
+# Best Practice
+* Usage of functions to make the code more systematic and understandable.
+* Header file is created to use functions wherever required without any confusion or difficulty.
+* To avoid computational errors, unit testing is done.
+<hr>
 
 # Architecture
-## Design
-### Structural Diagram
+# Design
 
-![Flow Chart](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/MyBlockDiagram1.jpg)
- 
+## Behavioural Diagram
+### High Level
+![FlowChart1](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC1.drawio%20(1).png)
+
+### Low Level
+![FlowChart2](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC2.drawio.png)
+
+## Structural Diagram
+### High Level UML Use Case diagram
+![FlowChart3](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC3.drawio.png)
+
+### Low Level UML Use Case diagram
+![FlowChart4](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC4.drawio.png)
+
+## Process Design
 1. At First user needs to give preferance for operation from the list displayed on screen in numbers ranging from 1 to 7.
 2. From that if the operations selected is `Addition or Subtraction` :
     * User needs to enter the number of rows and columns as to define the dimensions of matrix which will be same for both the matrix.
@@ -86,10 +114,11 @@ Matrix Calculator is a software designed in C-language which will allow the user
     * Then needs to enter the elements of matrix at every index. These inputs can be of integer or decimal type.
     * The output will be generated and displayed accordingly.
 
-
-### Use Case Diagram
-
-![Use Case Diagram](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/MyBlockDiagram2.jpg)
+## Best Practice Followed
+* Behavioural and Structural diagrams are mentioned for easy understanding.
+* Used different symbols for describing different blocks and their functionalities.
+* Detailed Explaination of whole process is mentioned.
+<hr>
 
 # Test-Plan and Output
 ## Test Plan
@@ -100,6 +129,7 @@ M_02 | tested subtraction of two matrix | n,m,matrix1,matrix2 | SUCCESS | SUCCES
 M_03 | tested multiplication of two matrix | m,n,s,matrix1,matrix2 | SUCCESS | SUCCESS | Technical
 M_04 | tested transpose of a matrix | m,n,matrix1 | SUCCESS | SUCCESS | Technical
 M_05 | tested determinant of a matrix | n,matrix1 | SUCCESS | SUCCESS | Technical
+<hr>
 
 # Output Images
 
