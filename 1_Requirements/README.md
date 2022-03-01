@@ -71,7 +71,7 @@ Matrix Calculator is a software designed in C-language which will allow the user
 ## How
 * Can be executed on windows and linux operating systems
 
-# Best Practice
+# Best Methods Followed
 * Usage of functions to make the code more systematic and understandable.
 * Header file is created to use functions wherever required without any confusion or difficulty.
 * To avoid computational errors, unit testing is done.
