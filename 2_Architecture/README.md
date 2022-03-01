@@ -2,17 +2,17 @@
 
 ## Behavioural Diagram
 ### High Level
-![Flow Chart 1] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC1.drawio%20(1).png)
+![FlowChart1](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC1.drawio%20(1).png)
 
 ### Low Level
-![Flow Chart 2] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC2.drawio.png)
+![FlowChart2](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC2.drawio.png)
 
 ## Structural Diagram
 ### High Level UML Use Case diagram
-![Flow Chart 3] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC3.drawio.png)
+![FlowChart3](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC3.drawio.png)
 
 ### Low Level UML Use Case diagram
-![Flow Chart 4] (https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC4.drawio.png)
+![FlowChart4](https://github.com/nimishpalod/M1_MatrixCalculator_utility/blob/nimish/2_Architecture/FC4.drawio.png)
 
 ## Process Design
 1. At First user needs to give preferance for operation from the list displayed on screen in numbers ranging from 1 to 7.
