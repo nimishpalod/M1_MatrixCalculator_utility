@@ -13,6 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make Build
-      run: make Build /home/runner/work/M1_MatrixCalculator_utility/M1_MatrixCalculator_utility/3_Implementation
+    - name: make
+      run: make /home/runner/work/M1_MatrixCalculator_utility/M1_MatrixCalculator_utility/3_Implementation
 
