@@ -34,7 +34,7 @@
     * Then needs to enter the elements of matrix at every index. These inputs can be of integer or decimal type.
     * The output will be generated and displayed accordingly.
 
-# Best Practice Followed
+# Best Methods Followed
 * Behavioural and Structural diagrams are mentioned for easy understanding.
 * Used different symbols for describing different blocks and their functionalities.
 * Detailed Explaination of whole process is mentioned.

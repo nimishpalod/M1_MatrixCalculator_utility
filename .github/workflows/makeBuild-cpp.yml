@@ -1,4 +1,4 @@
-name: Build-Linux
+name: C/C++ CI
 
 on:
   push:
@@ -14,4 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make run -C 3_Implementation
+      run: make /home/runner/work/M1_MatrixCalculator_utility/M1_MatrixCalculator_utility/3_Implementation
+

@@ -1,4 +1,8 @@
 # Test Plan
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2043c2d13dba44af5f0d438366a156002a1d6ac0
 ## High Level Test Plan
 | ID | Description | Input Values | Expected Output | Actual Output | Type of Test
 |----|----|-----|----|----|----|
